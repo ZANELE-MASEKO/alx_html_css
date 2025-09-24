@@ -1,0 +1,46 @@
+p {
+    line-height: 1.5;
+}
+
+a {
+    letter-spacing:2px;
+}
+
+a:visited{
+    color: red;
+}
+
+.square {
+    border: 1px dashed red;
+    padding: 10px 0 10px 10px;
+    margin-left: 0px;
+    margin-top: 20px
+}
+
+p::first-letter {
+  color: blue;
+  text-transform: uppercase;
+}
+
+header {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.logo,.links {
+    border: 1px dashed;
+}
+
+.links p, .logo p {
+    border: 1px solid red;
+}
